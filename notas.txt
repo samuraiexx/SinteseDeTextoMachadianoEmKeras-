@@ -1,0 +1,60 @@
+Escrever 'chcp 65001' no terminal antes de rodar o programa caso esteja utilizando windows, para evitar incompatibilidades com caracteres.
+
+Train 1
+maxlen: 100
+HiddenLayers: 256
+Dropout: 0.2 <-
+batch_size: 128
+
+Train 2
+maxlen: 100
+HiddenLayers: 256
+Dropout: 0.7 <-
+batch_size: 128
+
+Train 3 - BASE
+maxlen: 100
+HiddenLayers: 256
+Dropout: 0.5
+batch_size: 128
+
+Train 4
+maxlen: 60 <-
+HiddenLayers: 256
+Dropout: 0.5
+batch_size: 128
+
+
+Train 5
+maxlen: 120 <-
+HiddenLayers: 256
+Dropout: 0.5
+batch_size: 128
+
+
+Train 6
+maxlen: 100
+HiddenLayers: 256
+Dropout: 0.5
+batch_size: 256 <-
+
+
+Train 7
+maxlen: 100
+HiddenLayers: 256
+Dropout: 0.5
+batch_size: 64 <-
+
+
+Train 8
+maxlen: 100
+HiddenLayers: 512 <-
+Dropout: 0.5
+batch_size: 128
+
+
+Train 9
+maxlen: 100
+HiddenLayers: 128 <-
+Dropout: 0.5
+batch_size: 128
